@@ -1,0 +1,16 @@
+# API Reference
+
+## main(arquivo_netlist)
+
+A função `main` lê um arquivo netlist, constrói matrizes para a análise nodal e resolve o sistema de equações lineares para encontrar as tensões nodais.
+
+### Parâmetros:
+- `arquivo_netlist` (str): Enderço do arquivo netlist.
+
+### Return:
+- `resposta` (numpy.ndarray): Arraydas tensões nodais.
+
+### Exemplo:
+
+```python
+tensao_nodal = main("../examples/netlist3.txt")
