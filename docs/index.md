@@ -4,5 +4,5 @@ Welcome to the documentation for the Circuit Simulator project. This simulator i
 
 ## Conteúdos
 
-- [Usage](usage.md)
-- [API Reference](api_reference.md)
+- [Usage](docs/usage.md)
+- [API Reference](docs/api_reference.md)
